@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.table-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.tables {
+  margin-top: 100px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-one {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap: 5px;
+}
+
+.table-two {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 5px;
+  margin-top: 16%;
+}
+
+.table-three {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 5px;
+}
+.table-elements {
+  height: 50px;
+  width: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: aqua;
+}
+
+.last-table {
+  margin-top: 20px;
+  width: 60%;
+  margin-left: 300px;
+}
+.table-four {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+.table-one .table-elements {
+  background-color: #eb9494;
+  color: #fff;
+}
+
+.table-two .table-elements {
+  background-color: #60a8e6;
+  color: #fff;
+}
+
+.table-three .table-elements {
+  background-color: #e3e566;
+  color: black;
+}
+
+.table-four .table-elements {
+  background-color: #69e886;
+  color: black;
+}
